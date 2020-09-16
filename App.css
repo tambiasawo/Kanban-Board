@@ -22,6 +22,7 @@ h3::selection {
   border-radius: 10px;
   top: 70px;
   position: absolute;
+    overflow:hidden;
 }
 
 .wip {
@@ -32,6 +33,7 @@ h3::selection {
   position: absolute;
   right: 35%;
   border-radius: 10px;
+    overflow:hidden;
 }
 
 .completed {
@@ -44,6 +46,7 @@ h3::selection {
   height: 70vh;
   text-align: center;
   border-radius: 10px;
+  overflow:hidden;
 }
 
 .draggable {
@@ -61,6 +64,7 @@ h3::selection {
   text-align: center;
   padding: 10px;
   background-color: blue;
+
 }
 .todo::selection {
   background-color: pink;
